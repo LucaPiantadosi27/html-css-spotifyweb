@@ -224,6 +224,65 @@ aside button span {
 
   font-size: 17px;
 }
+#playlist-list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+
+  list-style-type: none;
+
+  overflow-y: auto;
+  max-height: calc(100% - 85px);
+}
+
+
+.aside-bottom {
+  display: flex;
+  flex-direction: column;
+
+  padding-bottom: 8px;
+  padding-top: 12px;
+}
+
+.aside-bottom button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+
+.aside-bottom #install-app {
+  margin-bottom: 10px;
+}
+
+.aside-bottom #install-app img {
+  height: 12px;
+}
+
+.aside-bottom hr {
+  margin-bottom: 14px;
+}
+
+.aside-bottom #profile-button {
+  font-size: 14px;
+}
+
+.aside-bottom #profile-button span {
+  font-weight: bold;
+}
+
+.aside-bottom #profile-button img {
+  width: 25px;
+  height: 25px;
+
+  object-fit: cover;
+  object-position: top;
+
+  background-color: #808080;
+
+  border-radius: 50%;
+
+}
 
 
 
