@@ -288,14 +288,6 @@ aside button span {
 
 /* Fine sidebar */
 
-footer {
-  background-color: #08bb2f;
-  /* test */
-
-  height: 90px;
-}
-
-
 
 
 
@@ -321,6 +313,7 @@ footer {
 /* Footer */
 
 footer{
+  background-color: blue;
   color: white;
   padding: 20px;
   display: flex;
