@@ -465,6 +465,7 @@ footer .center-div .seek-bar .bar .progress-bar::before {
   display: flex;
   align-items: center;
   flex-wrap: nowrap;
+  
 }
 
 .volume-section a {
@@ -475,4 +476,93 @@ footer .center-div .seek-bar .bar .progress-bar::before {
 .volume-section .play-bar {
   width: 80px;
   margin: 0;
+}
+
+
+
+@media screen and (max-width: 1200px) {
+  footer .track-info {
+      min-width: 0;
+  }
+}
+
+
+@media screen and (max-width: 992px) {
+
+
+  #selector .album {
+      width: calc(100% / 4 - 16px / 4 * 3);
+  }
+
+}
+
+
+
+@media screen and (max-width: 768px) {
+  #selector .album {
+      width: calc(100% / 2 - 16px / 2);
+  }
+
+  footer .track-details {
+      gap: 7px;
+  }
+
+  footer .album-cover img {
+      width: 40px;
+      height: auto;
+  }
+
+  footer .album-cover {
+      height: auto;
+      max-height: 100%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  #logo .big {
+      display: none;
+  }
+
+  #logo .small {
+      display: inline-block;
+      width: 28px;
+  }
+
+
+  aside {
+      width: 50px;
+      padding: 10px;
+  }
+
+  aside button,
+  aside a {
+      flex-direction: column;
+  }
+
+  /* nascondo elementi */
+  aside button span,
+  aside a span,
+  aside hr,
+  #playlists
+  {
+      display: none;
+  }
+
+  aside .aside-bottom {
+      padding-bottom: 0;
+  }
+
+
+
+  main {
+      width: calc(100% - 50px);
+  }
+
+  main #banner {
+      width: calc(100% - 50px);
+  }
+
+
+
+
 }
